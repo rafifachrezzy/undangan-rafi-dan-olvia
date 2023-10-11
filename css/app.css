@@ -18,7 +18,8 @@ body::-webkit-scrollbar {
   color: white !important;
 }
 .font-biasa {
-  color: white;
+  color: white !important;
+  font-family: "Times New Roman", Times, serif !important;
 }
 
 .img-crop {
@@ -97,7 +98,6 @@ body::-webkit-scrollbar {
   background-color: #111111 !important;
   margin-top: -5px;
   margin-bottom: -5px;
-  color: #111111;
 }
 
 footer {
@@ -310,22 +310,4 @@ footer small {
 .simply-countdown > .simply-section {
   padding: 60px;
   margin: 2px;
-}
-
-.timeline li .timeline-image {
-  width: 80px;
-  height: 80px;
-}
-
-.timeline li .timeline-panel {
-  width: 65%;
-  transform: translateX(-20px);
-}
-
-.timeline li .timeline-panel::before {
-  top: 30px;
-}
-
-.timeline li .timeline-panel::after {
-  top: 31px;
 }
