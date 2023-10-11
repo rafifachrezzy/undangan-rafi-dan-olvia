@@ -8,7 +8,8 @@ const progressBar = (() => {
     const progressPercentage = Math.min((loadedAssets / totalAssets) * 100, 100);
 
     document.getElementById("bar").style.width = progressPercentage.toString() + "%";
-    document.getElementById("progress-info").innerText = `Design by Rafi dan Olvia (${loadedAssets}) [${progressPercentage.toFixed(0)}%]`;
+    document.getElementById("progress-info").innerText = `Wedding card, code & Design by Rafi & Olvia 
+    (${loadedAssets}) [${progressPercentage.toFixed(0)}%]`;
 
     if (loadedAssets == totalAssets) {
       if ("scrollRestoration" in history) {

@@ -17,6 +17,9 @@ body::-webkit-scrollbar {
   font-family: "pacifico", cursive !important;
   color: white !important;
 }
+.font-biasa {
+  color: white;
+}
 
 .img-crop {
   width: 14rem;
@@ -153,6 +156,7 @@ footer small {
   padding: 1.4rem 0;
   margin-top: 1rem;
   position: relative;
+  color: black;
 }
 
 .timeline::before {
@@ -163,6 +167,16 @@ footer small {
   width: 1px;
   background-color: #ccc;
   left: 50%;
+}
+
+.timeline h3 {
+  color: black;
+}
+.timeline p {
+  color: black;
+}
+.timeline span {
+  color: black;
 }
 
 .timeline li {
