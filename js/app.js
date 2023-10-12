@@ -46,12 +46,13 @@ const audio = (() => {
       instance = new Audio();
       instance.autoplay = true;
       instance.src = document.getElementById("tombol-musik").getAttribute("data-url");
-      instance.play;
       instance.load();
+      instance.play();
       instance.currentTime = 0;
       instance.volume = 1;
       instance.muted = false;
       instance.loop = true;
+      instance.play();
     }
 
     return instance;
